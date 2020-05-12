@@ -39,7 +39,7 @@ cover.addEventListener('click', event => {
         event.target.classList.add('go');
         count--;
     }
-    if (count == 0) {
+    if (count === 0) {
         /**
          * удалить все card
          */
